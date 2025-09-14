@@ -63,7 +63,7 @@
 import ProductCard from './ProductCard';
 import { useEffect, useState } from 'react';
 
-const ProductList = () => {
+const ProductList = (props) => {
   const [productList, setProductList] = useState([]);
   const [allProducts, setAllProducts] = useState([]);
   const [searchText, setSearchText] = useState('');
@@ -113,7 +113,7 @@ const ProductList = () => {
 
       <div className='products-grid'>
         {productList.map((product) => (
-          <ProductCard key={product.id} product={product} />
+          <ProductCard key={product.id} product={product} onAddToCart={props.onAddToCart} />
         ))}
       </div>
     </section>
