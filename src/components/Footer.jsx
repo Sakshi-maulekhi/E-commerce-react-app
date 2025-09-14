@@ -6,13 +6,13 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         
-        {/* Brand Section */}
+        
         <div className="footer-section brand">
           <h3 className="footer-logo">Ecommerce App</h3>
           <p>&copy; {new Date().getFullYear()} Ecommerce App. All rights reserved.</p>
         </div>
 
-        {/* Quick Links */}
+       
         <nav className="footer-section links">
           <h4>Quick Links</h4>
           <ul>
@@ -23,7 +23,7 @@ const Footer = () => {
           </ul>
         </nav>
 
-        {/* Social Media */}
+        
         <div className="footer-section social">
           <h4>Follow Us</h4>
           <ul className="social-links">

@@ -5,7 +5,7 @@ const ListProductsCategory = () => {
   return (
     <>
       <section className='categories'>
-        <h1>Shop by Category</h1>
+  <h1 style={{ color: '#503a47ff' }}>Shop by Category</h1>
         <div className='categories-grid'>
           
             {productCategories.map((productCategory,index)=>(
