@@ -110,7 +110,7 @@ function Header({ cartCount, cart, products, searchText, setSearchText, onSearch
           style={{ position: 'relative', marginLeft: '16px', background: 'transparent', border: '1px solid pink',border:'none',borderRadius:'15px', cursor: 'pointer', padding: '2px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}
           onClick={() => setShowCart(!showCart)}
         >
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWcUpKJi6hD6A9UKoxMKJfNuDPx5Iv5yi-ug&s" alt="Cart" style={{width:'35px',height:'35px',borderRadius:'50%',verticalAlign:'middle',background:'#fff',padding:'2px'}} />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWcUpKJi6hD6A9UKoxMKJfNuDPx5Iv5yi-ug&s" alt="Cart" style={{width:'35px',height:'35px',borderRadius:'50%',verticalAlign:'middle',background:'#fff',padding:'2px',objectFit:'cover'}} />
           {cartCount > 0 && (
             <span style={{
               position: 'absolute',

@@ -80,6 +80,11 @@ header {
   height: 250px;
   border-radius: 10px;
   object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.category img:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.2);
 }
 
 .category h3 {
